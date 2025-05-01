@@ -1,0 +1,6 @@
+#for ros refference:
+https://create.dronaaviation.com/software/tutorials/ros/basic-integration-using-keyboard-for-control
+
+#for ros camera:
+https://create.dronaaviation.com/software/tutorials/ros/basic-camera-integration
+
