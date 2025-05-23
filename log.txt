@@ -1,0 +1,191 @@
+Starting object detection process...
+Starting object detection process...
+Starting object detection process...
+Starting object detection process...
+Starting object detection process...
+Starting object detection process...
+Starting object detection process...
+Starting object detection process...
+No mapping for gesture: H
+[ERROR] Movement logic failed: module 'plutocontrol.Pluto' has no attribute 'disarm'
+[ERROR] Movement logic failed: module 'plutocontrol.Pluto' has no attribute 'disarm'
+[ERROR] Movement logic failed: module 'plutocontrol.Pluto' has no attribute 'disarm'
+[ERROR] Movement logic failed: module 'plutocontrol.Pluto' has no attribute 'disarm'
+[ERROR] Movement logic failed: module 'plutocontrol.Pluto' has no attribute 'disarm'
+[ERROR] Movement logic failed: module 'plutocontrol.Pluto' has no attribute 'disarm'
+[ERROR] Movement logic failed: module 'plutocontrol.Pluto' has no attribute 'disarm'
+[ERROR] Movement logic failed: module 'plutocontrol.Pluto' has no attribute 'disarm'
+[ERROR] Movement logic failed: module 'plutocontrol.Pluto' has no attribute 'disarm'
+[ERROR] Movement logic failed: module 'plutocontrol.Pluto' has no attribute 'disarm'
+[ERROR] Movement logic failed: module 'plutocontrol.Pluto' has no attribute 'disarm'
+Starting object detection process...
+No mapping for gesture: H
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+No mapping for gesture: K
+No mapping for gesture: H
+No mapping for gesture: P
+No mapping for gesture: H
+No mapping for gesture: K
+No mapping for gesture: P
+No mapping for gesture: K
+No mapping for gesture: H
+No mapping for gesture: K
+No mapping for gesture: H
+Starting object detection process...
+No mapping for gesture: H
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+[ERROR] Movement logic failed: pluto.disarm() missing 1 required positional argument: 'self'
+No mapping for gesture: K
+No mapping for gesture: H
+No mapping for gesture: K
+Starting object detection process...
+No mapping for gesture: H
+Action: Disarm
+Action: Arm
+No mapping for gesture: H
+Action: Disarm
+No mapping for gesture: H
+No mapping for gesture: P
+No mapping for gesture: H
+No mapping for gesture: D
+No mapping for gesture: U
+No mapping for gesture: D
+No mapping for gesture: H
+Action: Disarm
+No mapping for gesture: K
+No mapping for gesture: D
+No mapping for gesture: H
+No mapping for gesture: K
+No mapping for gesture: H
+No mapping for gesture: F
+No mapping for gesture: H
+No mapping for gesture: K
+No mapping for gesture: H
+Action: Arm
+Action: Disarm
+No mapping for gesture: H
+Action: Arm
+No mapping for gesture: H
+Action: Disarm
+Action: Arm
+No mapping for gesture: D
+Action: Disarm
+No mapping for gesture: H
+No mapping for gesture: K
+No mapping for gesture: H
+No mapping for gesture: D
+No mapping for gesture: H
+Action: Arm
+Action: Disarm
+No mapping for gesture: H
+Action: Arm
+Action: Disarm
+Action: Arm
+Action: Disarm
+Action: Arm
+Action: Disarm
+No mapping for gesture: H
