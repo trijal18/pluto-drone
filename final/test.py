@@ -2,7 +2,7 @@ from ultralytics import YOLO
 from plutocontrol import pluto  
 import time
 
-model = YOLO(r"D:\projects\mini-project-pluto\pluto-drone\asl\ultralytics\gesture_movement\best_5.pt")
+model = YOLO(r"final\best_5.pt")
 
 # Variables to avoid spamming same command
 last_gesture = None
