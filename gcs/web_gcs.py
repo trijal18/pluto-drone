@@ -4,55 +4,81 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from fastapi.middleware.cors import CORSMiddleware
 import asyncio
+import signal
+import sys
 from plutocontrol import pluto  # your drone control class
 
 app = FastAPI()
 dr = pluto()
 
-# Static files & templates
+print("🚀 GCS running... press Ctrl+C to exit safely")
+
+# Mount static and template dirs
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
+# CORS (allow frontend access)
 app.add_middleware(
     CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"]
 )
 
+# Serve the frontend
 @app.get("/", response_class=HTMLResponse)
 async def home(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
 
 # --- Control Endpoints ---
 @app.post("/connect")
-def connect(): dr.connect(); return {"status": "connected"}
+def connect(): 
+    dr.connect()
+    return {"status": "connected"}
 
 @app.post("/disconnect")
-def disconnect(): dr.disconnect(); return {"status": "disconnected"}
+def disconnect(): 
+    dr.disconnect()
+    return {"status": "disconnected"}
 
 @app.post("/arm")
-def arm(): dr.arm(); return {"status": "armed"}
+def arm(): 
+    dr.arm()
+    return {"status": "armed"}
 
 @app.post("/disarm")
-def disarm(): dr.disarm(); return {"status": "disarmed"}
+def disarm(): 
+    dr.disarm()
+    return {"status": "disarmed"}
 
 @app.post("/takeoff")
-def takeoff(): dr.take_off(); return {"status": "takeoff"}
+def takeoff(): 
+    dr.take_off()
+    return {"status": "takeoff"}
 
 @app.post("/land")
-def land(): dr.land(); return {"status": "landing"}
+def land(): 
+    dr.land()
+    return {"status": "landing"}
 
 @app.post("/forward")
-def forward(): dr.forward(); return {"status": "forward"}
+def forward(): 
+    dr.forward()
+    return {"status": "forward"}
 
 @app.post("/backward")
-def backward(): dr.backward(); return {"status": "backward"}
+def backward(): 
+    dr.backward()
+    return {"status": "backward"}
 
 @app.post("/left")
-def left(): dr.left(); return {"status": "left"}
+def left(): 
+    dr.left()
+    return {"status": "left"}
 
 @app.post("/right")
-def right(): dr.right(); return {"status": "right"}
+def right(): 
+    dr.right()
+    return {"status": "right"}
 
-# --- WebSocket Telemetry ---
+# --- Telemetry via WebSocket ---
 @app.websocket("/ws/telemetry")
 async def telemetry(websocket: WebSocket):
     await websocket.accept()
@@ -70,3 +96,34 @@ async def telemetry(websocket: WebSocket):
         except Exception as e:
             await websocket.send_json({"error": str(e)})
         await asyncio.sleep(0.5)
+
+# --- Safe shutdown logic ---
+def safe_shutdown():
+    try:
+        print("\n⚠️ Shutting down... landing, disarming, disconnecting")
+        dr.land()
+        asyncio.sleep(1)
+        dr.disarm()
+        asyncio.sleep(1)
+        dr.disconnect()
+        print("✅ Drone safely shut down.")
+    except Exception as e:
+        print("❌ Shutdown error:", e)
+
+# --- FastAPI shutdown event ---
+@app.on_event("shutdown")
+def on_shutdown():
+    safe_shutdown()
+
+# --- Handle Ctrl+C or system kill ---
+def handle_exit(sig, frame):
+    safe_shutdown()
+    sys.exit(0)
+
+signal.signal(signal.SIGINT, handle_exit)   # Ctrl+C
+signal.signal(signal.SIGTERM, handle_exit)  # kill / docker stop
+
+# --- Optional: local run helper ---
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("web_gcs:app", host="0.0.0.0", port=8000, reload=True)
