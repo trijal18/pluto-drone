@@ -1,27 +1,26 @@
-// async function sendCommand(endpoint) {
-//     let response = await fetch(endpoint, { method: 'POST' });
-//     let result = await response.json();
-//     alert(result.status);
-// }
-
 async function post(endpoint) {
-  const response = await fetch(endpoint, { method: 'POST' });
-  const result = await response.json();
-  alert(result.status);
+  const res = await fetch(endpoint, { method: "POST" });
+  const json = await res.json();
+  alert(json.status);
 }
 
-// WebSocket for telemetry
 const socket = new WebSocket(`ws://${location.host}/ws/telemetry`);
 
 socket.onmessage = (event) => {
   const data = JSON.parse(event.data);
-  document.getElementById("roll").textContent = data.roll ?? '-';
-  document.getElementById("pitch").textContent = data.pitch ?? '-';
-  document.getElementById("yaw").textContent = data.yaw ?? '-';
-  document.getElementById("height").textContent = data.height ?? '-';
-  document.getElementById("battery").textContent = data.battery ?? '-';
+  if (data.error) return console.error("Telemetry error:", data.error);
+
+  ["roll", "pitch", "yaw", "height", "battery"].forEach(key => {
+    const el = document.getElementById(key);
+    if (el) el.textContent = data[key];
+  });
+
+  if (data.rc) {
+    data.rc.forEach((val, idx) => {
+      const el = document.getElementById(`rc${idx}`);
+      if (el) el.textContent = val;
+    });
+  }
 };
 
-socket.onerror = (err) => {
-  console.error("WebSocket error:", err);
-};
+socket.onerror = err => console.error("WebSocket error:", err);
