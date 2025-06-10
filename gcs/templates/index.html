@@ -1,0 +1,51 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Drone GCS</title>
+    <script src="/static/gcs.js"></script>
+</head>
+<body>
+    <h1>Drone Ground Control Station</h1>
+    <button onclick="sendCommand('/connect')">Connect</button>
+    <button onclick="sendCommand('/disconnect')">Disonnect</button>
+    <button onclick="sendCommand('/arm')">Arm</button>
+    <button onclick="sendCommand('/disarm')">Disarm</button>
+    <button onclick="sendCommand('/takeoff')">Take Off</button>
+    <button onclick="sendCommand('/land')">Land</button>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Drone GCS</title>
+  <script src="/static/gcs.js" defer></script>
+</head>
+<body>
+  <h1>Drone Ground Control Station</h1>
+
+  <div>
+    <button onclick="post('/connect')">Connect</button>
+    <button onclick="post('/arm')">Arm</button>
+    <button onclick="post('/takeoff')">Take Off</button>
+    <button onclick="post('/land')">Land</button>
+    <button onclick="post('/disarm')">Disarm</button>
+    <br><br>
+    <button onclick="post('/forward')">Forward</button>
+    <button onclick="post('/backward')">Backward</button>
+    <button onclick="post('/left')">Left</button>
+    <button onclick="post('/right')">Right</button>
+    <button onclick="post('/up')">Up</button>
+    <button onclick="post('/down')">Down</button>
+  </div>
+
+  <h2>Telemetry</h2>
+  <div id="telemetry">
+    <p><strong>Roll:</strong> <span id="roll">-</span></p>
+    <p><strong>Pitch:</strong> <span id="pitch">-</span></p>
+    <p><strong>Yaw:</strong> <span id="yaw">-</span></p>
+    <p><strong>Altitude:</strong> <span id="height">-</span> cm</p>
+    <p><strong>Battery:</strong> <span id="battery">-</span> V</p>
+  </div>
+</body>
+</html>
