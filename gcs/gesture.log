@@ -1,0 +1,20 @@
+[2025-06-10 09:38:15,548] INFO: Gesture control started using model with classes 1-4
+[2025-06-10 09:38:27,063] INFO: Sent command: arm
+[2025-06-10 09:38:30,167] INFO: Sent command: arm
+[2025-06-10 09:38:33,346] INFO: Sent command: arm
+[2025-06-10 09:38:35,496] INFO: Sent command: takeoff
+[2025-06-10 09:38:36,254] INFO: Sent command: arm
+[2025-06-10 09:38:36,547] INFO: Sent command: takeoff
+[2025-06-10 09:38:39,439] INFO: Sent command: disarm
+[2025-06-10 09:38:39,892] INFO: Sent command: arm
+[2025-06-10 09:38:40,071] INFO: Sent command: disarm
+[2025-06-10 09:38:40,073] INFO: Sent command: arm
+[2025-06-10 09:38:40,242] INFO: Sent command: disarm
+[2025-06-10 09:38:40,469] INFO: Sent command: arm
+[2025-06-10 09:38:42,223] INFO: Sent command: disarm
+[2025-06-10 09:38:42,920] INFO: Sent command: arm
+[2025-06-10 09:38:47,971] INFO: Sent command: arm
+[2025-06-10 09:38:51,357] INFO: Sent command: arm
+[2025-06-10 09:38:55,242] INFO: Sent command: takeoff
+[2025-06-10 09:38:56,079] INFO: Sent command: disarm
+[2025-06-10 09:39:04,460] INFO: Gesture control stopped by user
