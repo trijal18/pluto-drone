@@ -54,6 +54,10 @@ async def disarm():
     dr.disarm()
     return {"status": "disarmed"}
 
+@app.get("/test_roll")
+def test_roll():
+    return {"roll": dr.get_roll()}
+
 @app.websocket("/ws/telemetry")
 async def telemetry_websocket(websocket: WebSocket):
     await websocket.accept()
